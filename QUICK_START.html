@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Setup - Portfolio Melky Raham Ariyanto</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 700px;
+            background: white;
+            padding: 3rem;
+            border-radius: 1rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #2563eb;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: #6b7280;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.05rem;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+            padding: 1.5rem;
+            background: #f9fafb;
+            border-left: 4px solid #2563eb;
+            border-radius: 0.5rem;
+        }
+
+        .section h2 {
+            color: #1f2937;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .section p {
+            color: #6b7280;
+            line-height: 1.8;
+            margin-bottom: 0.5rem;
+        }
+
+        .section ul {
+            margin-left: 1.5rem;
+            color: #6b7280;
+            line-height: 1.8;
+        }
+
+        .section li {
+            margin-bottom: 0.5rem;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #1e40af;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-secondary {
+            background-color: #f59e0b;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #d97706;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+        }
+
+        .checklist {
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 0;
+            color: #6b7280;
+        }
+
+        .checklist-item input {
+            margin-right: 1rem;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            border: 2px solid #e5e7eb;
+        }
+
+        .feature-card:hover {
+            border-color: #2563eb;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-title {
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 0.25rem;
+        }
+
+        .feature-desc {
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+
+        .code-block {
+            background: #1f2937;
+            color: #10b981;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Portfolio Melky Raham Ariyanto</h1>
+        <p class="subtitle">Junior Programmer | Certified BNSP</p>
+
+        <div class="section">
+            <h2>✨ Selamat Datang!</h2>
+            <p>Portfolio profesional Anda sudah siap! Berikut adalah panduan cepat untuk memulai.</p>
+        </div>
+
+        <div class="section">
+            <h2>📂 File yang Sudah Dibuat</h2>
+            <ul>
+                <li><strong>index.html</strong> - Halaman utama / Home</li>
+                <li><strong>cv.html</strong> - Halaman CV profesional</li>
+                <li><strong>portfolio.html</strong> - Showcase proyek dengan filter</li>
+                <li><strong>surat-lamaran.html</strong> - Surat lamaran kerja + kontak</li>
+                <li><strong>css/</strong> - Folder styling (style.css, cv.css, portfolio.css, surat-lamaran.css)</li>
+                <li><strong>js/</strong> - Folder JavaScript (script.js, portfolio.js, surat-lamaran.js)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Quick Start</h2>
+            <p><strong>Langkah 1:</strong> Buka file index.html di browser</p>
+            <div class="code-block">
+                Atau gunakan Live Server di VS Code:
+                <br>Klik kanan index.html → Open with Live Server
+            </div>
+            <p style="margin-top: 1rem;"><strong>Langkah 2:</strong> Cek semua halaman dengan menu navbar</p>
+            <p style="margin-top: 0.5rem;"><strong>Langkah 3:</strong> Customize data pribadi Anda</p>
+        </div>
+
+        <div class="section">
+            <h2>⚙️ Perlu Diupdate</h2>
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox" id="check1">
+                    <label for="check1">Update email: melky.ariyanto@email.com</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check2">
+                    <label for="check2">Update nomor telepon: +62 812-3456-7890</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check3">
+                    <label for="check3">Update LinkedIn dan GitHub profile</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check4">
+                    <label for="check4">Tambah proyek real di portfolio.html</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check5">
+                    <label for="check5">Customize CV dengan pengalaman actual</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="check6">
+                    <label for="check6">Customize surat lamaran</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎨 Fitur Utama</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <div class="feature-title">Home Page</div>
+                    <div class="feature-desc">Hero section & profil</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📄</div>
+                    <div class="feature-title">CV Page</div>
+                    <div class="feature-desc">Cetak/download PDF</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <div class="feature-title">Portfolio</div>
+                    <div class="feature-desc">Filter & showcase proyek</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📧</div>
+                    <div class="feature-title">Surat Lamaran</div>
+                    <div class="feature-desc">Template + kontak form</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📝 File untuk Diedit</h2>
+            <p><strong>Untuk update data pribadi:</strong></p>
+            <ul>
+                <li><code style="background: #f0f4ff; padding: 0.2rem 0.5rem; border-radius: 0.25rem;">cv.html</code> - Ubah email, nomor, pengalaman kerja</li>
+                <li><code style="background: #f0f4ff; padding: 0.2rem 0.5rem; border-radius: 0.25rem;">portfolio.html</code> - Tambah/edit proyek</li>
+                <li><code style="background: #f0f4ff; padding: 0.2rem 0.5rem; border-radius: 0.25rem;">surat-lamaran.html</code> - Customize isi surat</li>
+                <li><code style="background: #f0f4ff; padding: 0.2rem 0.5rem; border-radius: 0.25rem;">index.html</code> - Update info kontak</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🌐 Next Steps</h2>
+            <ul>
+                <li>✅ Buka portfolio di browser dan cek semua halaman</li>
+                <li>✅ Edit cv.html dan update dengan data real Anda</li>
+                <li>✅ Tambah proyek actual di portfolio.html</li>
+                <li>✅ Customize surat lamaran dengan posisi target</li>
+                <li>✅ Test fitur cetak/download PDF di CV</li>
+                <li>✅ Update semua links (LinkedIn, GitHub, Email)</li>
+                <li>✅ Deploy ke GitHub Pages atau hosting favorit Anda</li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <a href="index.html" class="btn btn-primary">📂 Buka Portfolio</a>
+            <a href="cv.html" class="btn btn-secondary">📄 Lihat CV</a>
+        </div>
+
+        <p style="text-align: center; color: #6b7280; margin-top: 2rem; font-size: 0.9rem;">
+            Portfolio ini siap untuk dikustomisasi dan di-deploy. 
+            <br>Semua file HTML/CSS/JS sudah terintegrasi dengan baik. ✨
+        </p>
+    </div>
+
+    <script>
+        // Save checklist progress
+        const checklistItems = document.querySelectorAll('.checklist-item input');
+        
+        checklistItems.forEach((checkbox, index) => {
+            const key = `checklist_${index}`;
+            if (localStorage.getItem(key) === 'true') {
+                checkbox.checked = true;
+            }
+            
+            checkbox.addEventListener('change', () => {
+                localStorage.setItem(key, checkbox.checked);
+            });
+        });
+    </script>
+</body>
+</html>
