@@ -153,6 +153,18 @@
     margin-bottom: 0.5rem;
 }
 
+.lampiran-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.lampiran-link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 .surat-actions {
     display: flex;
     gap: 1rem;
