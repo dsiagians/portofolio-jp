@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Melky Raham Ariyanto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>MRA</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="surat-lamaran.html">Surat Lamaran</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="portfolio-header">
+        <div class="container">
+            <h1>Portfolio Saya</h1>
+            <p>Koleksi proyek dan karya-karya terbaik saya dalam programming</p>
+        </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="mobile">Mobile App</button>
+            <button class="filter-btn" data-filter="desktop">Desktop</button>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">E-Commerce Website</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-Commerce Website</h3>
+                        <p class="portfolio-category">Web Development</p>
+                        <p class="portfolio-description">
+                            Website e-commerce lengkap dengan fitur shopping cart, payment gateway, 
+                            dan admin dashboard. Dibangun menggunakan React dan Node.js.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Task Management App</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Task Management Application</h3>
+                        <p class="portfolio-category">Web Development</p>
+                        <p class="portfolio-description">
+                            Aplikasi manajemen tugas dengan fitur real-time collaboration, 
+                            priority tagging, dan deadline reminder.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card" data-category="mobile">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Weather App Mobile</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Weather Forecast Mobile App</h3>
+                        <p class="portfolio-category">Mobile App</p>
+                        <p class="portfolio-description">
+                            Aplikasi cuaca mobile yang menampilkan prakiraan cuaca real-time 
+                            dengan integrasi API OpenWeather.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">Expo</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card" data-category="desktop">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Inventory System</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Inventory Management System</h3>
+                        <p class="portfolio-category">Desktop Application</p>
+                        <p class="portfolio-description">
+                            Sistem manajemen inventori desktop dengan fitur CRUD, reporting, 
+                            dan export data ke Excel.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Download</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Blog Platform</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Blog Platform</h3>
+                        <p class="portfolio-category">Web Development</p>
+                        <p class="portfolio-description">
+                            Platform blog dengan fitur post creation, kategorisasi, komentar, 
+                            dan admin panel untuk manajemen konten.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-card" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Social Media Dashboard</div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Social Media Dashboard</h3>
+                        <p class="portfolio-category">Web Development</p>
+                        <p class="portfolio-description">
+                            Dashboard untuk menganalisis performa social media dengan chart 
+                            dan statistik real-time.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="portfolio-stats">
+        <div class="container">
+            <div class="stat-card">
+                <h3>15+</h3>
+                <p>Proyek Selesai</p>
+            </div>
+            <div class="stat-card">
+                <h3>10+</h3>
+                <p>Client Puas</p>
+            </div>
+            <div class="stat-card">
+                <h3>5+</h3>
+                <p>Teknologi</p>
+            </div>
+            <div class="stat-card">
+                <h3>2+</h3>
+                <p>Tahun Pengalaman</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Tertarik untuk Berkolaborasi?</h2>
+            <p>Mari kita ciptakan sesuatu yang luar biasa bersama</p>
+            <a href="surat-lamaran.html" class="btn btn-primary btn-large">Hubungi Saya</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Melky_siagian. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
